@@ -23,7 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
 } else {
-    // যদি কেউ সরাসরি login.php খোলে
     header("Location: login.html");
     exit();
 }
